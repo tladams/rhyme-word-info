@@ -1,0 +1,3 @@
+# rhyme-word-info
+
+Assuming you already have a webpage that provides a search box into which visitors can enter a text query in order to search for words that rhyme with their query, and that will display the rhyme results in varying size, add to each of the (maybe limit it to first 10) rhyme results a [definition list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl) that displays the "Word Information" for that word from a new API request ([see the "Word Information" section of the API documentation](https://rhymebrain.com/api.html)).
