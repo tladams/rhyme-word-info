@@ -14,6 +14,7 @@ async function whenSomeKeyPressed(event) {
     const rhymeElements = await createRhymeElements(rhymes);
     clearResultsElem();
     populateResultsElem(rhymeElements);
+    searchBoxElem.value = '';
   }
 }
 
